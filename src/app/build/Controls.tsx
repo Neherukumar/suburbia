@@ -145,15 +145,15 @@ type OptionProps = Omit<ComponentProps<"button">, "children"> & {
   onClick: () => void;
 } & (
     | {
-        imageField: ImageField;
-        imgixParams?: PrismicNextImageProps["imgixParams"];
-        colorField?: never;
-      }
+      imageField: ImageField;
+      imgixParams?: PrismicNextImageProps["imgixParams"];
+      colorField?: never;
+    }
     | {
-        colorField: ColorField;
-        imageField?: never;
-        imgixParams?: never;
-      }
+      colorField: ColorField;
+      imageField?: never;
+      imgixParams?: never;
+    }
   );
 
 function Option({
@@ -168,7 +168,7 @@ function Option({
     <li>
       <button
         className={clsx(
-          "size-10 cursor-pointer rounded-full bg-black p-0.5 outline-2 outline-white",
+          "size-10 cursor-pointer rounded-full bg-yellow-300 p-0.5 outline-2 outline-white",
           selected && "outline"
         )}
         onClick={onClick}

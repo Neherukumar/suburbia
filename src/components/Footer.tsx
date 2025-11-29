@@ -16,7 +16,7 @@ export async function Footer() {
     .filter((url): url is string => Boolean(url));
 
   return (
-    <footer className="bg-texture bg-zinc-900 text-white overflow-hidden">
+    <footer className="bg-texture bg-gray-900 text-yellow-400 overflow-hidden">
       <div className="relative h-[75vh] ~p-10/16 md:aspect-auto">
         <PrismicNextImage
           field={settings.data.footer_image}

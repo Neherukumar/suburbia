@@ -41,7 +41,7 @@ export function WavyPaths() {
       width={1242}
       height={308}
       className={clsx(
-        "pointer-events-none text-zinc-600",
+        "pointer-events-none text-red-600",
         !isSafari && "animate-squiggle"
       )}
     >

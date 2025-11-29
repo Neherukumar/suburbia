@@ -63,7 +63,7 @@ export default async function Page(props: {
             <Logo className="h-12 text-white" />
           </Link>
         </div>
-        <div className="grow bg-texture bg-zinc-900 text-white ~p-4/6 lg:w-96 lg:shrink-0 lg:grow-0">
+        <div className="grow bg-texture bg-yellow-900 text-white ~p-4/6 lg:w-96 lg:shrink-0 lg:grow-0">
           <Heading as="h1" size="sm" className="mb-6 mt-0">
             Build your board
           </Heading>

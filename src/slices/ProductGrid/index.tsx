@@ -23,7 +23,7 @@ const ProductGrid = ({ slice }: ProductGridProps): JSX.Element => {
     <Bounded
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
-      className="bg-texture bg-brand-gray"
+      className="bg-texture bg-yellow-300"
     >
       <SlideIn>
         <Heading className="text-center ~mb-4/6" as="h2">
